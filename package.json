@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "dev": "node --watch server",
-    "start": "node --watch server"
+    "start": "serve server"
   },
   "keywords": [],
   "author": "",
