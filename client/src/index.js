@@ -5,7 +5,8 @@ const getUserName = async () => {
   if (username) {
     return username
   }
-  return 'Anonymous'
+  const random = String(Math.floor(Math.random() * 10000))
+  return `Anonymous${random}`
 }
 
 // El serverOffset nos permite saber el último mensaje que ha recibido el usuario
